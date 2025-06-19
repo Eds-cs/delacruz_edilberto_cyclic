@@ -37,7 +37,7 @@ int main() {
     graph['D'] = {'A'};
     graph['G'] = {'C'};
     graph['F'] = {'C', 'B'};
-    graph['B'] = {'C', 'F', 'B'}; // Self-loop on B
+    graph['B'] = {'C', 'F'};
 
     bool isCyclic = false;
 
